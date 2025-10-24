@@ -27,3 +27,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlin.coroutines.coroutineContext
 
+@Composable
+fun ActivitasPertama(modifier: Modifier){
+
+}
+
+
+
+
