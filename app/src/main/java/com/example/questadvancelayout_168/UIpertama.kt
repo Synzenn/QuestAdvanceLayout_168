@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.sp
 import kotlin.coroutines.coroutineContext
 
 @Composable
-fun ActivitasPertama(modifier: Modifier){
+fun AktivitasPertama(modifier: Modifier){
     Column (
         modifier = Modifier
             .padding(top = 100.dp)
@@ -89,7 +89,6 @@ fun ActivitasPertama(modifier: Modifier){
                 modifier = Modifier
                     .align (Alignment.BottomCenter)
                     .padding( bottom = 50.dp)
-
             )
         }
     }
