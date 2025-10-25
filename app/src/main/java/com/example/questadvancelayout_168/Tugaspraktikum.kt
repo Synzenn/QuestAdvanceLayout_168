@@ -46,6 +46,21 @@ fun Aktivitaskedua(modifier: Modifier) {
                 .clip(CircleShape)
                 .background(Color.White)
         )
+        Spacer(modifier = Modifier.height(16.dp))
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            SocialMediaIcon(iconResId = R.drawable.fb)
+            Spacer(modifier = Modifier.width(8.dp))
+            SocialMediaIcon(iconResId = R.drawable.ig)
+            Spacer(modifier = Modifier.width(8.dp))
+            SocialMediaIcon(iconResId = R.drawable.x)
+            Spacer(modifier = Modifier.width(8.dp))
+            SocialMediaIcon(iconResId = R.drawable.github)
+        }
 
 }
 
