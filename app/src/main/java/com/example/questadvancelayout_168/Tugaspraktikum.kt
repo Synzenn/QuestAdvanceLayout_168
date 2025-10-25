@@ -130,3 +130,15 @@ fun SocialMediaIcon(iconResId: Int) {
         )
     }
 }
+
+@Composable
+fun MenuItemCard(@DrawableRes iconResId: Int, text: String, @DrawableRes endImageResId: Int) { // Menambahkan @DrawableRes untuk parameter ketiga
+    Card(
+        modifier = Modifier
+            .fillMaxWidth(0.9f)
+            .height(60.dp),
+        colors = CardDefaults.cardColors(containerColor = MenuCardBg),
+        shape = RoundedCornerShape(12.dp),
+        elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
+    )
+}
