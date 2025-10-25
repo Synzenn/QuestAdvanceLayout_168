@@ -11,6 +11,11 @@
     <string name="user_job_title">Seorang Mahasiswa di Teknologi Informasi</string>
 
 
+    <string name="tx_privacy">Privacy</string>
+    <string name="tx_transaction">Transaction History</string>
+    <string name="tx_settings">Settings</string>
+
+
 
 
 
