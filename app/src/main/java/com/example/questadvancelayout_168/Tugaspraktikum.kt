@@ -155,5 +155,14 @@ fun MenuItemCard(@DrawableRes iconResId: Int, text: String, @DrawableRes endImag
                         .clip(CircleShape)
                         .background(IconCircleBg),
                     contentAlignment = Alignment.Center
-                )
+                ) {
+
+                    Image(
+                        painter = painterResource(id = iconResId),
+                        contentDescription = null,
+                        modifier = Modifier.size(24.dp)
+                    )
+
+
+
 }
