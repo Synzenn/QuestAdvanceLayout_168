@@ -29,6 +29,23 @@ import com.example.questadvancelayout_168.ui.theme.SocialIconBg
 
 @Composable
 fun Aktivitaskedua(modifier: Modifier) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(PrimaryBackground)
+            .padding(top = 48.dp, bottom = 16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+
+        Image(
+            painter = painterResource(id = R.drawable.jihyo),
+            contentDescription = "Profile Picture",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier
+                .size(120.dp)
+                .clip(CircleShape)
+                .background(Color.White)
+        )
 
 }
 
