@@ -113,3 +113,13 @@ fun Aktivitaskedua(modifier: Modifier) {
     }
 }
 
+@Composable
+fun SocialMediaIcon(iconResId: Int) {
+    Box(
+        modifier = Modifier
+            .size(40.dp)
+            .clip(CircleShape)
+            .background(SocialIconBg),
+        contentAlignment = Alignment.Center
+    )
+}
