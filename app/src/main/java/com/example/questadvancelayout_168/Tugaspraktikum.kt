@@ -76,6 +76,29 @@ fun Aktivitaskedua(modifier: Modifier) {
         )
         Spacer(modifier = Modifier.height(16.dp))
 
+        Text(
+            text = stringResource(id = R.string.user_job_title),
+            fontSize = 14.sp,
+            color = TextSecondary,
+            modifier = Modifier.padding(horizontal = 32.dp)
+        )
+        Spacer(modifier = Modifier.height(32.dp))
 
-}
+        MenuItemCard(
+            iconResId = R.drawable.privacy,
+            text = stringResource(id = R.string.tx_privacy),
+            endImageResId = R.drawable.plus
+        )
+        Spacer(modifier = Modifier.height(12.dp))
+        MenuItemCard(
+            iconResId = R.drawable.history,
+            text = stringResource(id = R.string.tx_transaction),
+            endImageResId = R.drawable.plus
+        )
+        Spacer(modifier = Modifier.height(12.dp))
+        MenuItemCard(
+            iconResId = R.drawable.settings,
+            text = stringResource(id = R.string.tx_settings),
+            endImageResId = R.drawable.plus
+        )
 
