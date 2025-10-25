@@ -102,3 +102,14 @@ fun Aktivitaskedua(modifier: Modifier) {
             endImageResId = R.drawable.plus
         )
 
+        Spacer(modifier = Modifier.weight(1f))
+
+        Text(
+            text = stringResource(id = R.string.copykanan),
+            fontSize = 14.sp,
+            color = CopyrightText,
+            modifier = Modifier.padding(bottom = 16.dp)
+        )
+    }
+}
+
