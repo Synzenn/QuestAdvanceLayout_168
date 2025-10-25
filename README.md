@@ -1,3 +1,3 @@
 |Tampilan|
 ----------
-|<img width="434" height="939" alt="image" src="https://github.com/user-attachments/assets/c9e71a66-0441-4727-854f-ca87844702e5" />|
+|<img width="449" height="938" alt="image" src="https://github.com/user-attachments/assets/dd020dd9-35f7-46b6-8c49-efb6b6ca8322" />|
