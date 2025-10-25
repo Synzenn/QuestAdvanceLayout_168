@@ -27,3 +27,8 @@ import com.example.questadvancelayout_168.ui.theme.CopyrightText
 import com.example.questadvancelayout_168.ui.theme.SocialIconBg
 
 
+@Composable
+fun Aktivitaskedua(modifier: Modifier) {
+
+}
+
