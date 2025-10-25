@@ -160,7 +160,6 @@ fun MenuItemCard(@DrawableRes iconResId: Int, text: String, @DrawableRes endImag
                     Image(
                         painter = painterResource(id = iconResId),
                         contentDescription = null,
-                        // Baris 'tint = TextPrimary' dihapus
                         modifier = Modifier.size(24.dp)
                     )
 
