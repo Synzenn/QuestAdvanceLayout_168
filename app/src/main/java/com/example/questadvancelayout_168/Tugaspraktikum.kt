@@ -160,9 +160,26 @@ fun MenuItemCard(@DrawableRes iconResId: Int, text: String, @DrawableRes endImag
                     Image(
                         painter = painterResource(id = iconResId),
                         contentDescription = null,
+                        // Baris 'tint = TextPrimary' dihapus
                         modifier = Modifier.size(24.dp)
                     )
 
 
+                }
+                Spacer(modifier = Modifier.width(16.dp))
+                Text(
+                    text = text,
+                    fontSize = 18.sp,
+                    color = TextPrimary
+                )
+            }
 
+
+            Image(
+                painter = painterResource(id = endImageResId),
+                contentDescription = "Next",
+                modifier = Modifier.size(24.dp)
+            )
+        }
+    }
 }
