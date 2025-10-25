@@ -140,5 +140,11 @@ fun MenuItemCard(@DrawableRes iconResId: Int, text: String, @DrawableRes endImag
         colors = CardDefaults.cardColors(containerColor = MenuCardBg),
         shape = RoundedCornerShape(12.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
-    )
-}
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        )
