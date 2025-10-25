@@ -147,4 +147,13 @@ fun MenuItemCard(@DrawableRes iconResId: Int, text: String, @DrawableRes endImag
                 .padding(horizontal = 16.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
-        )
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(
+                    modifier = Modifier
+                        .size(40.dp)
+                        .clip(CircleShape)
+                        .background(IconCircleBg),
+                    contentAlignment = Alignment.Center
+                )
+}
