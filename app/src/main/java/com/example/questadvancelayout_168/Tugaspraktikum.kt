@@ -121,5 +121,12 @@ fun SocialMediaIcon(iconResId: Int) {
             .clip(CircleShape)
             .background(SocialIconBg),
         contentAlignment = Alignment.Center
-    )
+    ) {
+        Image(
+            painter = painterResource(id = iconResId),
+            contentDescription = null,
+            contentScale = ContentScale.Fit,
+            modifier = Modifier.size(24.dp)
+        )
+    }
 }
