@@ -61,6 +61,21 @@ fun Aktivitaskedua(modifier: Modifier) {
             Spacer(modifier = Modifier.width(8.dp))
             SocialMediaIcon(iconResId = R.drawable.github)
         }
+        Spacer(modifier = Modifier.height(24.dp))
+
+        Text(
+            text = stringResource(id = R.string.user_namee),
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold,
+            color = TextPrimary
+        )
+        Text(
+            text = stringResource(id = R.string.user_handle),
+            fontSize = 16.sp,
+            color = TextSecondary
+        )
+        Spacer(modifier = Modifier.height(16.dp))
+
 
 }
 
